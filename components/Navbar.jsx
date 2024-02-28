@@ -9,7 +9,7 @@ function Navbar({ user }) {
             <a href='/'>Main</a>
           </li>
           <li>
-            <a href='/books'>Books</a>
+            <a href='/books'>Watches</a>
           </li>
           {user ? (
             <>
@@ -23,10 +23,7 @@ function Navbar({ user }) {
           ) : (
             <>
               <li>
-                <a href='/auth/registration'>Sign-up</a>
-              </li>
-              <li>
-                <a href='/auth/authorization'>Sign-in</a>
+                <a href='/auth'>Sign-in</a>
               </li>
             </>
           )}

@@ -1,9 +1,9 @@
 const ssr = require('../middleware/ssr');
-// const getUser = require('../middleware/getUser');
+const getUser = require('../middleware/getUser');
 const path = require('path');
 const express = require('express');
 const cookieParser = require('cookie-parser');
-// const { verifyAccessToken } = require('../middleware/verifyJWT');
+const { verifyAccessToken } = require('../middleware/verifyJWT');
 
 const serverConfig = (app) => {
   // читать данные из тела запросов
@@ -19,13 +19,13 @@ const serverConfig = (app) => {
   app.use(express.static(path.join(__dirname, '..', 'public')));
 
   // для пользователя
-  // app.use(getUser);
+  app.use(getUser);
 
   // нужен для чтение кук на сервере
   app.use(cookieParser());
 
   // проверяет токены
-  // app.use(verifyAccessToken);
+  app.use(verifyAccessToken);
 };
 
 module.exports = serverConfig;
