@@ -16,7 +16,7 @@ function Navbar({ user }) {
               <li>
                 <a>{user.name}</a>
               </li>
-              <li>
+              <li className='nav_right'>
                 <a href='/api/auth/logout'>Logout</a>
               </li>
             </>
