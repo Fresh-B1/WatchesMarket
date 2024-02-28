@@ -1,6 +1,5 @@
 const jwt = require('jsonwebtoken');
 const generateTokens = require('../utils/authUtils');
-// const configJWT = require('../config/jwtConfig');
 
 function verifyRefreshToken(req, res, next) {
   try {

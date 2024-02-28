@@ -12,16 +12,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.TEXT,
       },
-      email: {
-        allowNull: false,
-        unique: true,
-        type: Sequelize.TEXT,
-      },
       password: {
-        allowNull: false,
-        type: Sequelize.TEXT,
-      },
-      role: {
         allowNull: false,
         type: Sequelize.TEXT,
       },
