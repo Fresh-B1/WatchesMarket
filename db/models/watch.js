@@ -5,7 +5,7 @@ const {
 module.exports = (sequelize, DataTypes) => {
   class Watch extends Model {
     static associate({ Order }) {
-      this.belongsTo(Order, { foreignKey: 'watchID' });
+      this.hasMany(Order, { foreignKey: 'watchID' });
     }
   }
   Watch.init({

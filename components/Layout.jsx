@@ -1,6 +1,7 @@
 const React = require('react');
 const Navbar = require('./Navbar');
 const AboutUs = require('./AboutUs');
+const WatchesBlocks = require('./WatchesBlocks');
 
 function Layout({ title, children, user }) {
   return (
@@ -10,11 +11,13 @@ function Layout({ title, children, user }) {
         <link rel="stylesheet" href="/styles/navbar.css" />
         <script defer src="/scripts/auth.js" />
         <link rel="stylesheet" href="/styles/aboutUs.css" />
+        <link rel="stylesheet" href="/styles/wb.css" />
       </head>
       <body>
         {/* наши страницы */}
         <Navbar user={user} />
-        <AboutUs user={user} />
+        <AboutUs />
+        <WatchesBlocks />
         {children}
       </body>
     </html>
