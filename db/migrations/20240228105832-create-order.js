@@ -30,6 +30,12 @@ module.exports = {
       },
       watchId: {
         type: Sequelize.INTEGER,
+        references: {
+          model: 'Watches',
+          key: 'id',
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
       createdAt: {
         allowNull: false,
