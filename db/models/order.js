@@ -1,6 +1,4 @@
-const {
-  Model,
-} = require('sequelize');
+const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
   class Order extends Model {
@@ -8,40 +6,43 @@ module.exports = (sequelize, DataTypes) => {
       this.belongsTo(Watch, { foreignKey: 'watchId' });
     }
   }
-  Order.init({
-    name: {
-      allowNull: false,
-      type: DataTypes.INTEGER,
-    },
-    email: {
-      allowNull: false,
-      type: DataTypes.INTEGER,
-    },
-    tel: {
-      allowNull: false,
-      type: DataTypes.INTEGER,
-    },
-    selfOrder: {
-      allowNull: false,
-      type: DataTypes.BOOLEAN,
-    },
-    img: {
-      allowNull: false,
-      type: DataTypes.INTEGER,
-    },
-    watchId: {
-      allowNull: false,
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'Watches',
-        key: 'id',
+  Order.init(
+    {
+      name: {
+        allowNull: false,
+        type: DataTypes.TEXT,
       },
-      onDelete: 'CASCADE',
-      onUpdate: 'CASCADE',
+      email: {
+        allowNull: false,
+        type: DataTypes.TEXT,
+      },
+      tel: {
+        allowNull: false,
+        type: DataTypes.TEXT,
+      },
+      selfOrder: {
+        allowNull: false,
+        type: DataTypes.BOOLEAN,
+      },
+      img: {
+        allowNull: false,
+        type: DataTypes.TEXT,
+      },
+      watchId: {
+        allowNull: false,
+        type: DataTypes.INTEGER,
+        references: {
+          model: 'Watches',
+          key: 'id',
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
+      },
     },
-  }, {
-    sequelize,
-    modelName: 'Order',
-  });
+    {
+      sequelize,
+      modelName: 'Order',
+    }
+  );
   return Order;
 };

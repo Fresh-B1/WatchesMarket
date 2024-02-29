@@ -10,15 +10,15 @@ module.exports = {
       },
       name: {
         allowNull: false,
-        type: Sequelize.INTEGER,
+        type: Sequelize.TEXT,
       },
       email: {
         allowNull: false,
-        type: Sequelize.INTEGER,
+        type: Sequelize.TEXT,
       },
       tel: {
         allowNull: false,
-        type: Sequelize.INTEGER,
+        type: Sequelize.TEXT,
       },
       selfOrder: {
         allowNull: false,
@@ -26,17 +26,10 @@ module.exports = {
       },
       img: {
         allowNull: false,
-        type: Sequelize.INTEGER,
+        type: Sequelize.TEXT,
       },
       watchId: {
-        allowNull: false,
         type: Sequelize.INTEGER,
-        references: {
-          model: 'Watches',
-          key: 'id',
-        },
-        onDelete: 'CASCADE',
-        onUpdate: 'CASCADE',
       },
       createdAt: {
         allowNull: false,
