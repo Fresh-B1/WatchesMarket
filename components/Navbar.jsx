@@ -8,16 +8,16 @@ function Navbar({ user }) {
           <li className='logo'>
             <img src="./img/logo.png" alt="Logo" />
           </li>
-          <li className="nav_center">
+          <a href="#aboutUs"><li className="nav_center">
             О нас
             {/* <a href='/books'>Watches</a> */}
-          </li>
+          </li></a>
           <li className="nav_center">
             Популярное
           </li>
-          <li className="nav_center">
+          <a href="#watchBlock"><li className="nav_center">
             Продукция
-          </li>
+          </li></a>
           <li className="nav_center">
             Заказать
           </li>
