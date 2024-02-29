@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --BG-button: #000;
+    --color-header: #4520ab;
+    --color-index: #111111;
+    --color-button-add: #ffffff;
+    --BG-tooltip: #fff;
+    --BG-rus-block: #f0f0f0;
+    --BG-eng-block: #adadad;
+    --BG-button-reset: #adadad;
+    --clor-button-reset: #0f0f0f;
+    --font-style: 'IBM Plex Mono';
+  }
+
+  .aboutUs {
+
+  }
+
+  .container {
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    width: 1500px;
+    height: 500px;
+    z-index: 90;
+  }
+
+ p {
+  color: #FFF;
+}
+
+.p_1 {
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  font-size: 25px;
+  font-family: var(--font-style);
+}
+
+.p_2 {
+  position: absolute;
+  top: 450px;
+  left: 15px;
+  font-size: 18px;
+
+}
+
+.p_3 {
+  position: absolute;
+  top: 468px;
+  left: 15px;
+  font-size: 16px;
+
+}
+
+.p_4 {
+  position: absolute;
+  top: 485px;
+  left: 15px;
+  font-size: 16px;
+
+}
+
+.p_5 {
+  position: absolute;
+  top: 502px;
+  left: 15px;
+  font-size: 16px;
+
+}
+
+
+

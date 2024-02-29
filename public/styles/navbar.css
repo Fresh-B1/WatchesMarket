@@ -1,34 +1,68 @@
-nav {
-  background-color: #000; 
-  padding: 10px; 
-  height: 40px;
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+:root {
+  --BG-button: #000;
+  --color-header: #4520ab;
+  --color-index: #111111;
+  --color-button-add: #ffffff;
+  --BG-tooltip: #fff;
+  --BG-rus-block: #f0f0f0;
+  --BG-eng-block: #adadad;
+  --BG-button-reset: #adadad;
+  --clor-button-reset: #0f0f0f;
+  --font-style: 'IBM Plex Mono';
 }
 
-body {
-  background-image: url('https://www.swatch.com/dw/image/v2/BDNV_PRD/on/demandware.static/-/Library-Sites-swarp-global/default/dwce62d76c/project/hp/hp_header_1920x950_d_option1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-ul {
-  list-style-type: none; 
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-li {
-  display: inline; 
-  margin-right: 20px; /
+nav {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  background-color: #000; 
+  padding: 10px; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 100;
 }
 
-a {
+.logo img {
+  position: fixed;
+  top: 0; /* Или любое другое значение */
+  left: 0; /* Или любое другое значение */
+  width: 110px;
+  height: 100px;
+ }
+ 
+/* .logo {
+  display: flex;
+  justify-content: start;
+} */
+
+li {
+  display: inline-block; 
+  color: #FFF;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-top: 25px;
+  cursor: pointer; 
+}
+
+li:hover {
+  border-bottom: 3px #FFF solid;
+  transition: 0.1s;
+
+}
+
+/* a {
   text-decoration: none; 
   color: white; 
   font-weight: bold; 
@@ -37,4 +71,4 @@ a {
 
 a:hover {
   color: #ffcc00; 
-}
+} */
