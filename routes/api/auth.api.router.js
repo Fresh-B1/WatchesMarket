@@ -3,13 +3,10 @@ const bcrypt = require('bcrypt');
 const { User } = require('../../db/models');
 const generateTokens = require('../../utils/authUtils');
 
-//
 router.post('/', async (req, res) => {
   let user;
   try {
     const { name, password } = req.body;
-    // console.log(req.body);
-    // console.log(name, password);
 
     user = await User.findOne({
       where: { name },
