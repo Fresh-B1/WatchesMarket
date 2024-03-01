@@ -19,7 +19,8 @@ function Layout({ title, children, user }) {
 
         <link rel="stylesheet" href="/styles/aboutUs.css" />
         <link rel="stylesheet" href="/styles/wb.css" />
-
+        <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ecbc7da4-095a-4cbf-9f22-3b4c979ece04&lang=ru_RU" type="text/javascript"></script>
+        <script defer src='./scripts/map.js'></script>
       </head>
       <body>
         <script

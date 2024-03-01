@@ -2,7 +2,7 @@ const React = require('react');
 
 function CarouselBlock({ user }) {
   return (
-    // <div classNameNameNameNameName="container-fluid my-carousel">
+    // <div className="container-fluid my-carousel">
     <div id="carouselExampleDark" className="carousel carousel-dark slide">
       <div className="carousel-indicators">
         <button

@@ -3,7 +3,14 @@ const React = require('react');
 function Footer() {
   return (
     <footer>
+
       <div id="footer" className="footer_container">
+        <div className='lll'>
+        <div className="map" id="map">
+          <h3>Как к нам добравться</h3>
+        </div>
+        </div>
+
         <div className="footer_inner_1">
           <h3>Поддержка</h3>
           <a href=""><p>Связаться с нами</p></a>
