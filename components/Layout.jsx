@@ -29,6 +29,7 @@ function Layout({ title, children, user }) {
 
         <link rel="stylesheet" href="/styles/orderCreate.css" />
         <link rel="stylesheet" href="/styles/auth.css" />
+        <link rel="stylesheet" href="/styles/404.css" />
       </head>
       <body>
         <script
