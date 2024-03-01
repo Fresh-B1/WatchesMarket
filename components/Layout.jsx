@@ -8,6 +8,7 @@ function Layout({ title, children, user }) {
         <link rel='stylesheet' href='/styles/navbar.css' />
         <link rel='stylesheet' href='/styles/carousel.css' />
         <link rel="stylesheet" href="/styles/footer.css" />
+        <link rel="stylesheet" href="/styles/order.css" />
         <script defer src='/scripts/auth.js' />
         <script defer src='/scripts/watch.js' />
 
