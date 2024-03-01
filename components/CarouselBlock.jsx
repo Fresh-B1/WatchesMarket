@@ -70,7 +70,9 @@ function CarouselBlock({ user }) {
               Cветло-коричневые кварцевые мужские деревянные наручные часы,
               ручная работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
+
               ЗАКАЗАТЬ
             </a>
           </div>
@@ -87,7 +89,9 @@ function CarouselBlock({ user }) {
               Красные кварцевые мужские деревянные наручные часы из дерева,
               ручная работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
+
               ЗАКАЗАТЬ
             </a>
           </div>
@@ -104,7 +108,8 @@ function CarouselBlock({ user }) {
               Бежевые кварцевые мужские деревянные наручные часы из дерева,
               ручная работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
               ЗАКАЗАТЬ
             </a>
           </div>
@@ -121,7 +126,9 @@ function CarouselBlock({ user }) {
               Темно-коричневые кварцевые деревянные наручные часы из дерева,
               ручная работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
+
               ЗАКАЗАТЬ
             </a>
           </div>
@@ -138,7 +145,9 @@ function CarouselBlock({ user }) {
               Кварцевые деревянные наручные часы из дерева с кожаным ремешком,
               ручная работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
+
               ЗАКАЗАТЬ
             </a>
           </div>
@@ -155,7 +164,9 @@ function CarouselBlock({ user }) {
               Красные кварцевые деревянные наручные часы из дерева, ручная
               работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
+
               ЗАКАЗАТЬ
             </a>
           </div>
@@ -171,7 +182,9 @@ function CarouselBlock({ user }) {
             <p className="text-dark">
               Кварцевые деревянные наручные часы из дерева, ручная работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
+
               ЗАКАЗАТЬ
             </a>
           </div>
@@ -188,7 +201,9 @@ function CarouselBlock({ user }) {
               Кварцевые деревянные наручные часы c кожаным ремешком, ручная
               работа.
             </p>
-            <a type="button" className="btn btn-dark" href='#order_crt'>
+
+            <a type="button" className="btn btn-dark" href="#order_crt">
+
               ЗАКАЗАТЬ
             </a>
           </div>
