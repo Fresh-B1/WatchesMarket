@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -85,7 +86,6 @@
     font-size: 16px;
     text-align: center;
     vertical-align: bottom;
-    letter-spacing: 1px;
     padding-top: 12px;
     transition: 0.2s;
 }

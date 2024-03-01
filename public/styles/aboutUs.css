@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'mbf-orbital-colony';
+    src: url(../fonts/Romile-Regular.woff) format('woff'),
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -37,41 +42,45 @@
 
 .p_1 {
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 15px;
-  font-size: 25px;
-  font-family: var(--font-style);
+  font-size: 32px;
+  font-family: "mbf-orbital-colony";
 }
 
 .p_2 {
   position: absolute;
-  top: 450px;
+  top: 650px;
   left: 15px;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
 
 }
 
 .p_3 {
   position: absolute;
-  top: 468px;
+  top: 675px;
   left: 15px;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
 
 }
 
 .p_4 {
   position: absolute;
-  top: 485px;
+  top: 705px;
   left: 15px;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
 
 }
 
 .p_5 {
   position: absolute;
-  top: 502px;
+  top: 730px;
   left: 15px;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
 
 }
 

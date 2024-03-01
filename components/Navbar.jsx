@@ -18,7 +18,7 @@ function Navbar({ user }) {
           <a href="#watchBlock">
             <li className="nav_center">Продукция</li>
           </a>
-          <a href="#">
+          <a href="#order_crt">
             <li className="nav_center">Заказать</li>
           </a>
           <a href="#footer">
