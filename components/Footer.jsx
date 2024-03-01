@@ -27,8 +27,8 @@ function Footer() {
 
         <div className="footer_inner_3">
           <h3>Способы оплаты</h3>
-          <a href="https://devby.io/news/novyy-dizayn-platezhnoy-stranitsy-karta-halva"><img className="payments master" src="./img/payment/Mastercard_footer.avif" alt="" /></a>
-          <a href="https://devby.io/news/novyy-dizayn-platezhnoy-stranitsy-karta-halva"><img className="payments visa" src="./img/payment/Visa_footer.webp" alt="" /></a>
+          <a target="_blank" href="https://devby.io/news/novyy-dizayn-platezhnoy-stranitsy-karta-halva"><img className="payments master" src="./img/payment/Mastercard_footer.avif" alt="" /></a>
+          <a target="_blank" href="https://devby.io/news/novyy-dizayn-platezhnoy-stranitsy-karta-halva"><img className="payments visa" src="./img/payment/Visa_footer.webp" alt="" /></a>
           <a href="/"><img className="payments COD" src="./img/payment/COD_footer.avif" alt="" /></a>
         </div>
 

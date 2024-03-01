@@ -6,7 +6,7 @@ function Navbar({ user }) {
       <div>
         <ul>
           <li className="logo">
-            <img src="./img/logo.png" alt="Logo" />
+           <a href="/"> <img src="./img/logo.png" alt="Logo" /></a>
           </li>
           <a href="#aboutUs">
             <li className="nav_center">
