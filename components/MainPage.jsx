@@ -7,6 +7,7 @@ const WatchesBlocks = require('./WatchesBlocks');
 const Navbar = require('./Navbar');
 const Footer = require('./Footer');
 
+
 function MainPage({ title, user, watches }) {
   return (
     <Layout title={title} user={user}>
@@ -14,13 +15,8 @@ function MainPage({ title, user, watches }) {
         <Navbar user={user} />
         <AboutUs />
         <SwiperBlock watches={watches} />
-
         <WatchesBlocks />
-        
         <Footer />
-
-        {/* <h1>Main page</h1> */}
-
       </div>
     </Layout>
   );
