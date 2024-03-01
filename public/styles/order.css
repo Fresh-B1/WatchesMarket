@@ -1,0 +1,23 @@
+.orderP {
+  color: black;
+}
+
+.orderInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.orderInfo p {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  /* margin: 10px; */
+  padding: 2rem;
+  width: 18rem;
+}
+
+h2 {
+  display: block;
+  justify-content: center;
+  align-self: center;
+}

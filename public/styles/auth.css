@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container_auth {
+    background-color: #000;
+    height: 100vh;
+  }
+
+  .adm_form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adm_form h2 {
+    color: #FFF;
+  }
+
+  .sign-in input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 35px;
+    width: 250px;
+    padding-left: 10px;
+  }
+
+  .sign-in button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0 0 50px;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.sign-in button:hover {
+    transition: 0.3s;
+    transform: scale(1.15);
+}

@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'mbf-orbital-colony';
+    src: url(../fonts/Romile-Regular.woff) format('woff'),
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --BG-button: #000;
+    --color-header: #4520ab;
+    --color-index: #111111;
+    --color-button-add: #ffffff;
+    --BG-tooltip: #fff;
+    --BG-rus-block: #f0f0f0;
+    --BG-eng-block: #adadad;
+    --BG-button-reset: #adadad;
+    --clor-button-reset: #0f0f0f;
+    --font-style: 'IBM Plex Mono';
+  }
+
+  .aboutUs img {
+    width: 100%;
+    height: 1080px;
+  }
+
+  .container {
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    width: 1500px;
+    height: 500px;
+    z-index: 90;
+  }
+
+ p {
+  color: #FFF;
+}
+
+.p_1 {
+  position: absolute;
+  top: 250px;
+  left: 15px;
+  font-size: 32px;
+  font-family: "mbf-orbital-colony";
+}
+
+.p_2 {
+  position: absolute;
+  top: 650px;
+  left: 15px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
+
+}
+
+.p_3 {
+  position: absolute;
+  top: 675px;
+  left: 15px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
+
+}
+
+.p_4 {
+  position: absolute;
+  top: 705px;
+  left: 15px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
+
+}
+
+.p_5 {
+  position: absolute;
+  top: 730px;
+  left: 15px;
+  font-size: 20px;
+  font-family: "mbf-orbital-colony";
+
+}
+
+
+

@@ -1,0 +1,23 @@
+.swiperItem {
+  max-height: 56rem;
+  max-width: 50rem;
+}
+.carousel-item img, .watchItem img {
+  align-self: center;
+  max-height: 56rem;
+  max-width: 50rem;
+  margin-top: 110px;
+}
+
+.watchItem, .carousel-item, .active {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: black;
+}
+
+.carousel {
+  height: 960px;
+}

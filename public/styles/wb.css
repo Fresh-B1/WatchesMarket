@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .watch_1 {
+    display: flex;
+    background-color: #000;
+}
+  .watch_2 {
+    display: flex;
+    background-color: #0a7994;
+}
+
+.watch_3  {
+    display: flex;
+    background-color: #935e30;
+}
+.watch_4  {
+    display: flex;
+    background-color: #304565;
+}
+.watch_5  {
+    display: flex;
+    background-color: rgb(146, 146, 114);
+}
+
+.watch_1_block_left, .watch_2_block_left, .watch_3_block_left, .watch_4_block_left, .watch_5_block_left  {
+    width: 100%;
+    height: 960px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .watch_1_block_right , .watch_2_block_right, .watch_3_block_right, .watch_4_block_right, .watch_5_block_right {
+    width: 100%;
+    height: 960px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .watch_title {
+    color: #FFF;
+    text-align: center;
+    margin-top: 380px;
+  }
+
+  .title_1, .title_2, .title_3, .title_4, .title_5 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .watch_description {
+    color: #FFF;
+    text-align: center;
+    margin-top: 45px;
+    width: 70vh;
+    word-break: keep-all;
+    overflow-wrap:break-word;
+  }
+
+  .description_1, .description_2, .description_3, .description_4, .description_5 {
+    font-size: 20px;
+  }
+
+  .container_for_watches a {
+    display: block;
+}
+
+.btn_wb_buy {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 110px;
+    height: 45px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 12px;
+    transition: 0.2s;
+}
+
+.btn_wb_buy:hover {
+    transition: 0.3s;
+    transform: scale(1.15);
+}
+
+
+
+#watchBlock {
+
+}
+
+.watchBlock {
+
+}
+
+html {
+    scroll-behavior: smooth;
+   }
