@@ -4,11 +4,11 @@ const Layout = require('./Layout');
 function AuthorizationPage({ title }) {
   return (
     <Layout title={title}>
-      <div
+      <div className='zzz'
         style={{
           margin: '0 auto',
         }}
-      >
+       >
         <h2
           style={{
             fontSize: '50px',

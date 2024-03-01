@@ -28,6 +28,7 @@ function Layout({ title, children, user }) {
         <link rel='stylesheet' href='/styles/wb.css' />
 
         <link rel="stylesheet" href="/styles/orderCreate.css" />
+        <link rel="stylesheet" href="/styles/auth.css" />
       </head>
       <body>
         <script
