@@ -12,18 +12,18 @@ function Navbar({ user }) {
             О нас
             {/* <a href='/books'>Watches</a> */}
           </li></a>
-          <li className="nav_center">
+          <a href="#carouselExampleDark"><li className="nav_center">
             Популярное
-          </li>
+          </li></a>
           <a href="#watchBlock"><li className="nav_center">
             Продукция
           </li></a>
           <li className="nav_center">
             Заказать
           </li>
-          <li className="nav_center">
+          <a href="#footer"><li className="nav_center">
             Контакты
-          </li>
+          </li></a>
           {user ? (
             <>
               <li>
