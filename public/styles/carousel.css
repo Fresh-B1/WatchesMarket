@@ -6,6 +6,7 @@
   align-self: center;
   max-height: 56rem;
   max-width: 50rem;
+  margin-top: 110px;
 }
 
 .watchItem, .carousel-item, .active {
@@ -17,3 +18,6 @@ p {
   color: black;
 }
 
+.carousel {
+  height: 960px;
+}
