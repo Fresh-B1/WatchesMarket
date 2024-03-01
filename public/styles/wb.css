@@ -26,7 +26,7 @@
     background-color: rgb(146, 146, 114);
 }
 
-  .watch_1_block_left, .watch_2_block_left, .watch_3_block_left, .watch_4_block_left, .watch_5_block_left  {
+.watch_1_block_left, .watch_2_block_left, .watch_3_block_left, .watch_4_block_left, .watch_5_block_left  {
     width: 100%;
     height: 960px;
     display: flex;
@@ -34,7 +34,7 @@
     flex-direction: column;
   }
 
-  .watch_1_block_right img, .watch_2_block_right, .watch_3_block_right, .watch_4_block_right, .watch_5_block_right {
+  .watch_1_block_right , .watch_2_block_right, .watch_3_block_right, .watch_4_block_right, .watch_5_block_right {
     width: 100%;
     height: 960px;
     display: flex;

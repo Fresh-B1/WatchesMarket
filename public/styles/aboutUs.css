@@ -17,8 +17,8 @@
     --font-style: 'IBM Plex Mono';
   }
 
-  .aboutUs {
-
+  .aboutUs img {
+    width: 100%;
   }
 
   .container {
