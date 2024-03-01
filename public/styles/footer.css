@@ -28,7 +28,7 @@ footer {
 .footer_inner_1, .footer_inner_2, .footer_inner_3  {
     /* display: inline;
     flex-direction: column; */
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .footer_inner_1 a, .footer_inner_2 a {
@@ -44,11 +44,11 @@ footer {
     margin-right: 100px;
 }
 
-.footer_inner_2, .footer_inner_3 {
-    margin-left: 250px;
+.footer_inner_1, .footer_inner_2, .footer_inner_3 {
+    margin-left: 170px;
 }
 
-.footer_inner_3 {
+.map, .footer_inner_3 {
     text-align: center;
 }
 
@@ -61,5 +61,13 @@ transition: 0.4s;
     transform: scale(1.2);
 }
 
+.lll {
 
 
+}
+
+.map {
+    width: 400px; 
+    height: 250px;
+    margin-top: 60px;
+}
