@@ -1,10 +1,17 @@
 const React = require('react');
 const Layout = require('./Layout');
+const OrderItem = require('./OrderItem');
 
-function OrdersPage({ title, order }) {
+function OrdersPage({ title, orders, user }) {
+  // console.log(Array.isArray(orders));
   return (
-    <Layout title={title}>
-      <h1>OrdersPage</h1>
+    <Layout title={title} user={user}>
+      <h2>Заказы</h2>
+      <div className='orderBlock'>
+        {orders.map((el) => (
+          <OrderItem key={el.id} order={el} />
+        ))}
+      </div>
     </Layout>
   );
 }
