@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { default: Page404 } = require('../../components/Page404');
+const Page404 = require('../../components/Page404');
 
 router.get('/', async (req, res) => {
   try {
