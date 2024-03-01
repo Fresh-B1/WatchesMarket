@@ -8,6 +8,7 @@ function Layout({ title, children, user }) {
         <link rel="stylesheet" href="/styles/navbar.css" />
         <link rel="stylesheet" href="/styles/carousel.css" />
         <script defer src="/scripts/auth.js" />
+        <link rel="stylesheet" href="/styles/footer.css" />
 
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"

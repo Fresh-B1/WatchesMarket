@@ -21,9 +21,9 @@ function Navbar({ user }) {
           <li className="nav_center">
             Заказать
           </li>
-          <li className="nav_center">
+          <a href="#footer"><li className="nav_center">
             Контакты
-          </li>
+          </li></a>
           {user ? (
             <>
               <li>
