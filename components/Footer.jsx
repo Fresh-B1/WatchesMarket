@@ -7,7 +7,7 @@ function Footer() {
       <div id="footer" className="footer_container">
         <div className='lll'>
         <div className="map" id="map">
-          <h3>Как к нам добравться</h3>
+          <h3>Как к нам добраться</h3>
         </div>
         </div>
 
