@@ -4,17 +4,16 @@ const { upload } = require('../../middleware/multer');
 
 router.post('/', upload.single('img'), async (req, res) => {
   try {
-    const { name, email, tel } = req.body;
+    const { name, email, tel, description } = req.body;
 
     const newFileUrl = `/img/${req.file.originalname}`;
 
     const data = {
+      img: newFileUrl,
       name,
       email,
-      img: newFileUrl,
       tel,
-      selfOrder: false,
-      watchId: 5,
+      description,
     };
     const watch = await Order.create(data);
     res.status(201).json({ message: 'success' });
