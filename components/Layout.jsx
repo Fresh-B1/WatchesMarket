@@ -7,6 +7,7 @@ function Layout({ title, children, user }) {
         <title>{title}</title>
         <link rel='stylesheet' href='/styles/navbar.css' />
         <link rel='stylesheet' href='/styles/carousel.css' />
+        <link rel="stylesheet" href="/styles/footer.css" />
         <script defer src='/scripts/auth.js' />
         <script defer src='/scripts/watch.js' />
 

@@ -5,7 +5,8 @@ const SwiperBlock = require('./CarouselBlock');
 const AboutUs = require('./AboutUs');
 const WatchesBlocks = require('./WatchesBlocks');
 const Navbar = require('./Navbar');
-const OrderCreate = require('./OrderCreate');
+const Footer = require('./Footer');
+
 
 function MainPage({ title, user, watches }) {
   return (
@@ -15,7 +16,7 @@ function MainPage({ title, user, watches }) {
         <AboutUs />
         <SwiperBlock watches={watches} />
         <WatchesBlocks />
-        <OrderCreate />
+        <Footer />
       </div>
     </Layout>
   );
