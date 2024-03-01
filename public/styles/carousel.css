@@ -1,6 +1,6 @@
 .swiperItem {
   max-height: 56rem;
-  /* max-width: 50rem; */
+  max-width: 50rem;
 }
 .carousel-item img, .watchItem img {
   align-self: center;
@@ -12,3 +12,8 @@
   display: flex;
   justify-content: center;
 }
+
+p {
+  color: black;
+}
+
