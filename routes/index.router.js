@@ -20,6 +20,7 @@ router.use('/orders', ordersViewPage);
 router.use('/api', mainApiRouter);
 router.use('/api/auth', authApiRouter);
 router.use('/api/upload', uploadRouter);
-router.use('*', errRouter);
+
+router.use('/*', errRouter);
 
 module.exports = router;
