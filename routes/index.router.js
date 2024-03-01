@@ -4,6 +4,7 @@ const router = require('express').Router();
 const mainRouter = require('./views/main.view.router');
 const authViewPage = require('./views/auth.view.router');
 const ordersViewPage = require('./views/orders.view.router');
+const errRouter = require('./views/err.view.router');
 
 // api
 const mainApiRouter = require('./api/main.api.router');
@@ -19,5 +20,6 @@ router.use('/orders', ordersViewPage);
 router.use('/api', mainApiRouter);
 router.use('/api/auth', authApiRouter);
 router.use('/api/upload', uploadRouter);
+router.use('*', errRouter);
 
 module.exports = router;

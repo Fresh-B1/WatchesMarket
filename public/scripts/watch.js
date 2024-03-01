@@ -40,7 +40,7 @@ if (formAddWatch) {
     });
     // обрабатываем наш ответ и приводим к obj
     const res = await response.json();
-    // console.log(res);
+    console.log(res);
     if (res.message === 'success') {
       formAddWatch.reset();
       // document

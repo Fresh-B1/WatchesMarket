@@ -5,8 +5,10 @@ const { upload } = require('../../middleware/multer');
 router.post('/', upload.single('img'), async (req, res) => {
   try {
     const { name, email, tel, description } = req.body;
-
-    const newFileUrl = `/img/${req.file.originalname}`;
+    let newFileUrl = null;
+    if (req.file) {
+      newFileUrl = `/img/${req.file.originalname}`;
+    }
 
     const data = {
       img: newFileUrl,
