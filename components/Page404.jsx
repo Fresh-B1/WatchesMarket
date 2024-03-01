@@ -2,10 +2,10 @@ const React = require('react');
 
 function Page404() {
   return (
-    <div>
+    <div className="error_page">
       <img
-        src='/img/image_processing20191107-30363-1jmdede.gif'
-        alt='picture'
+        src="/img/image_processing20191107-30363-1jmdede.gif"
+        alt="picture"
       />
     </div>
   );
